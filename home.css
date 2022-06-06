@@ -21,6 +21,14 @@ body {
     margin: 0;
 }
 
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
 #main-header ul li a {
     color: #252525;
     font-family: "Arial Black", Gadget, sans-serif;
@@ -32,31 +40,19 @@ body {
     text-transform: uppercase;
 }
 
-#mobile-navigation{
-
-}
-
-#navigation{
-    
-}
-
 ul {
     list-style: none;
     justify-content: center;
-    display: flex;
     gap: 50px;
     padding-top: 20px;
     padding-bottom: 25px;
+    display: flex;
 }
-
 
 a {
     cursor: pointer;
-}
-
-
-.selected{
-    
+    display: inline-block;
+    text-decoration: none;
 }
 
 #body #featured div {
@@ -70,24 +66,85 @@ a {
     width: 490px;
 }
 
+#body{
+    /* border: 1px dotted black; */
+}
+
+#body-image{
+    width: 100%;
+}
+
 span{
-    background-color: rgb(212, 0, 255);
+    background-color: rgb(84,32,132);
     color: white;
 }
 
 h2{
     background-color: white;
     width: 300px;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #featured span{
     display: flex;
     margin: 0 50px 25px 0px;
-    font-size: 30px;
+    font-size: 20px;
+    align-items: baseline;
+    padding: 20px;
+}
+
+#featured a{
+    background-color: rgb(9,163,156);
+    color: white;
+    padding: 25px;
 }
 
 .more{
-    background-color: rgb(9,163,156);
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+#lower-images{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    gap: 50px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#lower-images img{
+    width: 250px;
+}
+
+#lower-images h3{
+    color: #252525;
+}
+
+.athlete{
+    text-align: center;
+    margin: auto;
+}
+
+.politician {
+    text-align: center;
+    margin: auto;
+}
+
+.gentleman{
+    text-align: center;
+    margin: auto;
+}
+
+#footer{
+    background: #252525;
     color: white;
-    padding: 25px; 
+    margin: 0;
+    padding: 35px;
+}
+
+#twitter{
+
 }

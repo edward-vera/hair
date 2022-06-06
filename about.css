@@ -7,7 +7,6 @@ body {
     line-height: 1;
     margin: 0;
     min-width: 960px;
-    padding: 0;
 }
 
 #main-header{
@@ -21,6 +20,14 @@ body {
     margin: 0;
 }
 
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
 #main-header ul li a {
     color: #252525;
     font-family: "Arial Black", Gadget, sans-serif;
@@ -32,7 +39,7 @@ body {
     text-transform: uppercase;
 }
 
-ul {
+#navigation {
     list-style: none;
     justify-content: center;
     display: flex;
@@ -43,4 +50,50 @@ ul {
 
 a {
     cursor: pointer;
+}
+
+div{
+    display: block;
+}
+
+.h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font-size: 45px;
+}
+
+.h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.frida{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.p{
+    margin: auto;
+    word-wrap: normal;
+}
+
+.body{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0 0 30px;
+    text-align: center;
+}
+
+#footer{
+    background: #252525;
+    color: white;
+    margin: 0;
+    padding: 35px;
 }
