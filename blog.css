@@ -6,7 +6,6 @@ body {
     font-weight: normal;
     line-height: 1;
     margin: 0;
-    min-width: 960px;
     padding: 0;
 }
 
@@ -14,7 +13,6 @@ body {
     margin: 0 auto;
     padding: 44px 0 50px;
     text-align: center;
-    width: 960px;
 }
 
 #main-header ul {
@@ -37,7 +35,6 @@ ul{
     margin: 0;
     padding: 0 0 3px;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 ul {
@@ -49,8 +46,13 @@ ul {
     padding-bottom: 25px;
 }
 
-a {
+.body a {
+    background-color: #252525;
+    color: white;
     cursor: pointer;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
 }
 
 #footer{
@@ -67,4 +69,40 @@ a {
     width: 500px;
     margin: auto;
     font-size: 45px;
+}
+
+.body{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.body img{
+    border: 2px solid;
+}
+
+.info{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.info div{
+    border: 2px solid;
+    padding: 75px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p{
+    padding-bottom: 20px;
 }
