@@ -67,7 +67,12 @@ a {
 }
 
 .table{
-    margin: 0;
+    width: 976px;
+    margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.table img{
+    padding: 10px;
 }

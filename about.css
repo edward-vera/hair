@@ -67,7 +67,7 @@ div{
 
 .h3{
     color: rgb(0, 0, 0);
-    text-align: center;
+    /* text-align: center; */
     width: 300px;
     margin: auto;
     font-size: 15px;
@@ -76,17 +76,17 @@ div{
 .frida{
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 100%;
 }
 
 .p{
+    padding-right: 200px;
+    padding-left: 200px;
+    width: 500px;
     margin: auto;
     word-wrap: normal;
 }
 
 .body{
-    margin-left: 200px;
-    margin-right: 200px;
     padding: 0 0 30px;
     text-align: center;
 }

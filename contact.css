@@ -59,19 +59,10 @@ a {
     cursor: pointer;
 }
 
-.body{
-    margin: 0 auto;
-}
-
-form{
-    margin: auto;
-    padding-top: 25px;
-    padding-left: 400px;
-}
-
-.body input{
+#body input{
     display: block;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #footer{
@@ -79,4 +70,36 @@ form{
     color: white;
     margin: 0;
     padding: 35px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border: black solid 2px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:auto;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    border: black solid 2px;
+}
+
+form{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+#send{
+    width: 100px;
+    background-color: rgb(51, 0, 51);
+    color: white;
 }
