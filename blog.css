@@ -111,12 +111,15 @@ p{
     body{
         width: 768px;
     }
+
+    .body{
+        width: 630px;
+    }
     
     #main-header{
         width: 768px;
         margin: 0;
     }
-
     
     #footer{
         width: 718px;

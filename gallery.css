@@ -88,7 +88,16 @@ a {
         margin: 0;
     }
 
-    
+    .h2{
+        margin-left: 240px;
+        text-align: center;
+    }
+
+    .table{
+        flex-direction: column;
+        width: 505px;
+    }
+
     #footer{
         width: 718px;
     }
