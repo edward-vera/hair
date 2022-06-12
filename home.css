@@ -58,7 +58,7 @@ a {
 #body #featured div {
     left: 50%;
     margin-left: -480px;
-    margin-top: -171px;
+    margin-top: -251px;
     padding: 0 0 0 470px;
     position: absolute;
     top: 50%;
@@ -108,9 +108,7 @@ h2{
 
 #lower-images{
     display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     gap: 50px;
     font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -143,4 +141,48 @@ h2{
     color: white;
     margin: 0;
     padding: 35px;
+}
+
+/*for tablet size */
+@media (max-width:768px) {
+body{
+    width: 768px;
+}
+
+#main-header{
+    width: 768px;
+    margin: 0;
+    justify-content: center;
+}
+
+#lower-images{
+    flex-direction: column;
+    width: 758px;
+    margin: 20px;
+}
+
+#footer{
+    width: 718px;
+}
+
+#footer p{
+    text-align: center;
+    margin: auto;
+}
+
+#body #featured div {
+    left: 40%;
+    margin-left: -480px;
+    margin-top: -224px;
+    padding: 0 0 0 470px;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    width: 490px;
+}
+}
+
+/* for phone size */
+@media (max-width: 390px) {
+
 }

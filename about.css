@@ -97,3 +97,55 @@ div{
     margin: 0;
     padding: 35px;
 }
+
+/*for tablet size */
+@media (max-width:768px) {
+    #body{
+        width: 768px;
+    }
+    
+    #main-header{
+        width: 768px;
+        margin: 0;
+    }
+
+    .body div{
+        width: 500px;
+    }
+
+    .h2{
+        margin-left: 52px;
+        text-align: center;
+    }
+
+    .body{
+        margin-left: 80px;
+        text-align: center;
+    }
+
+    #article .p{
+        margin-left: 50px;
+        padding: 0;
+    }
+
+    div{
+        width: 500px;
+        margin-right: 0;
+    }
+    
+    /* Footer settings */
+    #footer{
+        width: 718px;
+    }
+    
+    #footer p{
+        text-align: center;
+        margin: auto;
+    }
+    
+}
+    
+    /* for phone size */
+@media (max-width: 390px) {
+    
+}

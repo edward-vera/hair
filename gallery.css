@@ -76,3 +76,31 @@ a {
 .table img{
     padding: 10px;
 }
+
+/*for tablet size */
+@media (max-width:768px) {
+    body{
+        width: 768px;
+    }
+    
+    #main-header{
+        width: 768px;
+        margin: 0;
+    }
+
+    
+    #footer{
+        width: 718px;
+    }
+    
+    #footer p{
+        text-align: center;
+        margin: auto;
+    }
+    
+    }
+    
+    /* for phone size */
+    @media (max-width: 390px) {
+    
+    }

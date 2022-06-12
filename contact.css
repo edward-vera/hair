@@ -103,3 +103,35 @@ form{
     background-color: rgb(51, 0, 51);
     color: white;
 }
+
+/*for tablet size */
+@media (max-width:768px) {
+    body{
+        width: 768px;
+    }
+    
+    #main-header{
+        width: 768px;
+        margin: 0;
+    }
+
+    
+    #footer{
+        width: 718px;
+    }
+    
+    #footer p{
+        text-align: center;
+        margin: auto;
+    }
+
+    div{
+        width: 762px
+    }
+    
+}
+    
+    /* for phone size */
+    @media (max-width: 390px) {
+    
+}
